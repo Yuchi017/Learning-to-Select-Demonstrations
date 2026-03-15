@@ -101,7 +101,7 @@ def load_dataset(task_type, data_dir, dataset_name):
             
     print(f"Loaded {len(dataset)} valid samples from {dataset_name}.")
     if len(dataset) == 0: raise ValueError(f"No valid {dataset_name} images found.")
-    return dataset[:30]
+    return dataset
 
 
 def generate_embeddings(dataset, vision_model, processor):
@@ -176,14 +176,14 @@ def main(args):
     test_embedding_file = os.path.join(base_path, f"test_embeddings.pt")
     
     # Save Train files
-    # torch.save(train_set, train_dataset_file)
-    # torch.save(train_embeddings, train_embedding_file)
+    torch.save(train_set, train_dataset_file)
+    torch.save(train_embeddings, train_embedding_file)
     print(f"Saved: {train_dataset_file}")
     print(f"Saved: {train_embedding_file}")
 
     # Save Test files
-    # torch.save(test_set, test_dataset_file)
-    # torch.save(test_embeddings, test_embedding_file)
+    torch.save(test_set, test_dataset_file)
+    torch.save(test_embeddings, test_embedding_file)
     print(f"Saved: {test_dataset_file}")
     print(f"Saved: {test_embedding_file}")
 

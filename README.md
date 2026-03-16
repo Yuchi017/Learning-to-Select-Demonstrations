@@ -20,14 +20,24 @@ pip install -r requirements.txt
 
 ## Process Data
 
-### 1. Download Dataset from Website
+### 1. Download Dataset
 
-#### links
-    - Age Prediction(UTK): https://susanqq.github.io/UTKFace/
-    - Aesthetic Score(AVA): https://www.kaggle.com/datasets/nicolacarrassi/ava-aesthetic-visual-assessment
-    - Facial Beauty(SCUT_FBP5500_v2): https://www.kaggle.com/datasets/pranavchandane/scut-fbp5500-v2-facial-beauty-scores
-    - Wild Image Quality(Koniq): https://database.mmsp-kn.de/koniq-10k-database.html
-    - Modified Image Quality(Kadid): https://database.mmsp-kn.de/kadid-10k-database.html
+Download the datasets from the following sources:
+
+- **Age Prediction (UTKFace)**  
+  https://susanqq.github.io/UTKFace/
+
+- **Aesthetic Score (AVA)**  
+  https://www.kaggle.com/datasets/nicolacarrassi/ava-aesthetic-visual-assessment
+
+- **Facial Beauty (SCUT-FBP5500 v2)**  
+  https://www.kaggle.com/datasets/pranavchandane/scut-fbp5500-v2-facial-beauty-scores
+
+- **Wild Image Quality (KonIQ-10k)**  
+  https://database.mmsp-kn.de/koniq-10k-database.html
+
+- **Modified Image Quality (KADID-10k)**  
+  https://database.mmsp-kn.de/kadid-10k-database.html
 
 ### 2. Process Dataset
 ```bash

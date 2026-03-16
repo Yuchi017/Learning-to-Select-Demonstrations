@@ -1,0 +1,20 @@
+datasets:
+  age_prediction:
+    root: data/utk
+    images: data/utk/UTKFace
+
+  aesthetic_score:
+    root: data/ava
+    images: data/ava/images
+
+  facial_beauty:
+    root: data/fbp5500_v2
+    images: data/fbp5500_v2/Image
+
+  modified_image_quality:
+    root: data/kadid
+    images: data/kadid/images
+
+  wild_image_quality:
+    root: data/koniq
+    images: data/koniq/512x384

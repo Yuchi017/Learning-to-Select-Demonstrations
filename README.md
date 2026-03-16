@@ -44,6 +44,8 @@ Download the datasets from the following sources:
 ./script/process_data.sh
 ```
 
+### 3. Update datasets.yaml
+
 ## LSD Training (DQN)
 ```bash
 ./script/train_dqn.sh

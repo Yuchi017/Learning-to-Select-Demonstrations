@@ -50,3 +50,10 @@ Download the datasets from the following sources:
 ```bash
 ./script/train_dqn.sh
 ```
+results will be saved in train_res
+
+## LSD Evaluation (DQN)
+```bash
+./script/eval_dqn.sh
+```
+results will be saved in eval_res

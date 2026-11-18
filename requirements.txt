@@ -1,0 +1,10 @@
+torch
+transformers
+vllm
+faiss-cpu
+numpy
+pandas
+pillow
+pyyaml
+scikit-learn
+tqdm

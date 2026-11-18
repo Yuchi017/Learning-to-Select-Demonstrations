@@ -1,4 +1,6 @@
 #!/bin/bash
+
+export CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES:-0}
 set -euo pipefail
 
 CONFIG=datasets.yaml
@@ -20,7 +22,7 @@ print(cfg["datasets"]["$task"]["root"])
 EOF
 )
 
-  CUDA_VISIBLE_DEVICES=3 python prepare_data.py \
+  python prepare_data.py \
     --task_type "$task" \
     --data_dir "$data_dir" \
     --output_dir "$data_dir" \
